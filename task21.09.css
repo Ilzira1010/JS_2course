@@ -1,0 +1,15 @@
+
+  let array = [];
+
+  while (true) {
+    let value = prompt("Введите число", 0);
+    if (value !== "" && value != null && !isNaN(value)) 
+    {array.push(+value);} else break;
+  }
+
+  let sum = 0;
+  for (var i=0; i<array.length; i++) {
+    sum += array[i];
+  }
+  
+alert( sum );
